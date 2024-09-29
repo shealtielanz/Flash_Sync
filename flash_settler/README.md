@@ -1,4 +1,5 @@
 ### FlashSettler: The FlashLoan Intermediary
+![Flash settler](https://github.com/user-attachments/assets/61ded36a-c1a4-4fc0-a6e5-0cd4e45cd4cd)
 
 The **FlashSettler** acts as an intermediary between the **FlashLoan Predicate** and the user of the flash loan, ensuring that all constraints and rules are adhered to throughout the transaction. Its role is critical in maintaining the integrity of the flash loan process, verifying that all steps are properly executed and ensuring the safe return of funds to the predicate.
 ### Key Features:
