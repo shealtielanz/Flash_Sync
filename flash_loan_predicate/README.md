@@ -3,6 +3,11 @@ A Novel Flash Loan Standard for Predicates
 
 The **FlashLoanPredicate** is a groundbreaking new standard that utilizes Fuel’s predicates for flash loans. It holds the loanable funds and allows users to borrow them under the strict condition that the borrowed amount is repaid within the same transaction, including a fee.
 
+![Flash Loan Predicate](https://github.com/user-attachments/assets/e82c9a1a-2e6b-48f3-a030-d31e7082fe7a)
+
+
+
+
 ### Core Constraints:
 1. **FlashScripts for Security**: The predicate must be used with the designated *FlashScripts* to ensure the security of the funds held.
 2. **Repayment During the Same Transaction**: Borrowers must repay the borrowed amount during the transaction, facilitated by an intermediary known as the *Flash Settler*.
