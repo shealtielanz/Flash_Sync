@@ -19,7 +19,7 @@ Flash_Sync allows users to deposit funds into a Flashvault. Once these funds acc
 ### Core Components of Flash_Sync:
 
 1. **Flash Loan Predicates**: A new standard developed by me specifically for flash loans using Fuel’s predicates, this allows for stateless flash loans on the transaction level with maximum security.
-2. **Flash Vaults**: Vaults that issue shares to users who deposit assets, these assets are aggregated and used to fund the predicates to  enabling flash loans and generate yield, as for every flash loan taken from the predicate a fee is taken from the user.
+2. **Flash Vaults**: Vaults that issue shares to users who deposit assets, these assets are aggregated and used to fund the predicates to  enable flash loans and generate yield, as for every flash loan taken from the predicate a fee is taken from the user.
 3. **Flash Settler**: On-chain intermediary that ensures all state-based constraints for flash loans are met during transaction execution.
 4. **FlashAbi**: An ABI that must be implemented in the contract of anyone seeking to use flash loan funds.
 5. **Flash Script**: The script responsible for enabling the loan and securing the flash loan predicates, basically your transaction must make use of the flash script if you must use the flash loans issued out by the predicates.
@@ -32,7 +32,7 @@ Each core component includes a detailed README for better understanding, availab
 ## Overview
 ![Flashsync (3)](https://github.com/user-attachments/assets/cb63c237-df29-4161-9eb2-f8eb637388ba)
 
-
+Basically, users lend by depositing their assets into the vault, and those funds are taken to the flash loan predicates where borrowers can use those funds but repay with extra fees.
 
 ## System Workflow
 
