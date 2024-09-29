@@ -72,7 +72,10 @@ This simple yet robust structure ensures Flash_Sync enables yield generation and
 ### Setup
 
 The tests are written in rust SDK for fuels toolchain, anyone looking to understand should have a good knowledge of rust, and sway.
-
+To build the contracts cd into the directory
+```bash
+forc build
+```
 To run the tests 
 ```bash
 cargo test
@@ -84,6 +87,7 @@ cargo test -- --nocapture
 
 ensure all the dependencies are in the `Cargo.toml` and `Forc toml` file to avoid errors in your terminal, also have the current latest toolchain(I used nightly if that would help you out in any way).
 
+### Tests
 
 For the vaults check the `flash_vault` folder, and the `README.md` file to understand more of how it works.
 For the core Flash_vaults tests, I ensured to test most of the workflows to ensure every user interaction is safe you can see the test outputs from the terminal below:
