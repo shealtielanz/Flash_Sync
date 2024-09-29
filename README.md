@@ -72,6 +72,8 @@ This simple yet robust structure ensures Flash_Sync enables yield generation and
 ### Setup
 
 The tests are written in rust SDK for fuels toolchain, anyone looking to understand should have a good knowledge of rust, and sway.
+
+
 To build the contracts cd into the directory
 ```bash
 forc build
