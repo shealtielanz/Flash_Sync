@@ -14,7 +14,7 @@ These loans must be repaid within the same transaction along with a small fee. T
 
 ## How Flash_Sync Works
 
-Flash_Sync allows users to deposit funds into a Flashvault. Once these funds accumulate, they are used to power(fund) The Flash Loan Predicates, maximizing liquidity utilization and generating yield for users through Flash_Sync vaults. The system is designed to ensure user funds are secure, and the vaults and the predicate cannot be rug-pulled due to the built-in protections within the flash loan predicates and the vault. This guarantees the safety of user funds as the top priority.
+`Flash_Sync` allows users to deposit funds into a `Flashvault`. Once these funds accumulate, these funds are used to power The Flash Loan Predicates, maximizing liquidity utilization for borrowers and generating yield for lenders via the fees accumulated when borrowers take the loans. The system is designed to ensure user funds are secure, the vaults and the predicate cannot be rug-pulled due to the built-in protections within the flash loan predicates together with the vault. This guarantees the safety of user funds as the top priority.
 
 ### Core Components of Flash_Sync:
 
