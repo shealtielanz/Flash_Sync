@@ -1,9 +1,9 @@
    ![Flashsync (2)](https://github.com/user-attachments/assets/317b7c3d-7bde-4e1d-bdde-8c83cf63d831)
 # Flash_Sync:
-A Lending Platform powered by Yield aggregating Predicates. - Flash Loan Predicate.
+A Lending Platform powered by Yield aggregating Predicates. - Flash Loan Predicates.
 
-**FlashSync** is a project designed to leverage Fuel’s new technology,**Predicates** to accrue yield for the vaults and also reduce the state burden on the nodes supporting the ecosystem.
-Predicates are stateless smart contracts that significantly reduce the storage burden on the nodes supporting the Fuel system, making Fuel the fastest blockchain available. Flash_Sync is powered by the first-ever **Flash Loan Predicates** in the Fuel ecosystem, which hold funds and offer loans for various financial activities to borrowers for example:
+**FlashSync** is a project designed to leverage Fuel’s new technology,**Predicates** to accrue yield for the vaults that power it, and also reduce the state burden on the nodes supporting the ecosystem.
+Predicates are stateless smart contracts that significantly reduce the storage burden on the nodes supporting the Fuel system, making Fuel the fastest blockchain available. Flash_Sync is powered by the first-ever **Flash Loan Predicates** in the Fuel ecosystem, which holds funds and offers loans for various financial activities to borrowers for example:
 
 - Arbitrage Trades
 - Refinancing Loans
