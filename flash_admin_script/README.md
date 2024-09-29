@@ -1,4 +1,7 @@
-### Flash Admin Script
+## Flash Admin Script
+
+![Flash script admin](https://github.com/user-attachments/assets/f8a43d15-af11-4a9a-bb56-225206482eb5)
+
 
 The **Flash Admin Script** is a specialized script that can only be executed by the admin. Its bytecode hash is stored in the predicate, ensuring the script’s authenticity. When executed, the predicate verifies the signatures and ensures that only the vault receives the transferred funds.
 
