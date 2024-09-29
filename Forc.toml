@@ -1,0 +1,9 @@
+[workspace]
+members = [
+"./flash_vault",
+"./flash_abi",
+"./flash_loan_predicate",
+"./flash_abi_impl",
+"./flash_settler",
+"./flash_script",
+]

@@ -1,0 +1,13 @@
+[[package]]
+name = "core"
+source = "path+from-root-C87F32F7760EAA7E"
+
+[[package]]
+name = "flash_admin_script"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?rev#3e0acc16733be61674e7603dd36105559a7b605c"
+dependencies = ["core"]

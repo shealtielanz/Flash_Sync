@@ -1,0 +1,20 @@
+[package]
+name = "flash_vault"
+description = "A cargo-generate template for Rust + Sway integration testing."
+version = "0.1.0"
+edition = "2021"
+authors = ["shealtielanz <shanzydinero@gmail.com>"]
+license = "Apache-2.0"
+
+[dev-dependencies]
+fuels = "0.66.1"
+tokio = { version = "1.12", features = ["rt", "macros"] }
+
+[dependencies]
+rand = "0.8"
+sha2 = { version = "0.10.7" }
+
+[[test]]
+harness = true
+name = "integration_tests"
+path = "tests/harness.rs"
